@@ -2,6 +2,9 @@
 
 ## Getting Started
 
+imagen resuelto:
+![alt text](image.png)
+
 Este repositorio se refiere a la segunda unidad de Estructuras de Datos, donde se cubren estructuras como sets y diccionarios
 ## Requirements
 - Java JDK 11 or higher

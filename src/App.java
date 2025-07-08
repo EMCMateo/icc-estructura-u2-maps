@@ -1,7 +1,8 @@
+import controllers.Mapa;
 
 public class App {
     public static void main(String[] args) throws Exception {
-
+        System.out.println("MATEO EDUARDO MOLINA CHAMBA");
         // Ejecuta el ejemplo de uso de HashMap con ejemplos sencilloss
         runMapExamlpe();
 
@@ -13,15 +14,19 @@ public class App {
     }
 
     private static void runEmpleadoExample() {
-        throw new UnsupportedOperationException("Not implemented yet");
+
     }
 
     private static void runMapExamlpe() {
-        throw new UnsupportedOperationException("Not implemented yet");
+        Mapa mapa = new Mapa();
+        mapa.ejemploConHashMap();
+        mapa.ejemploConLinkedHashMap();
+        mapa.ejemploConTreeMap();
+        
     }
 
     private static void runEjerccios() {
-        throw new UnsupportedOperationException("Not implemented yet");
+
 
     }
 }
