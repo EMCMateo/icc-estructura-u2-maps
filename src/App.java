@@ -1,13 +1,8 @@
-import controllers.Ejercicios;
-import controllers.EmpleadoContoller;
-import controllers.Mapa;
-
-import models.Empleado;
 
 public class App {
     public static void main(String[] args) throws Exception {
 
-        // Ejecuta el ejemplo de uso de HashMap con ejemplos sencillos
+        // Ejecuta el ejemplo de uso de HashMap con ejemplos sencilloss
         runMapExamlpe();
 
         // Ejecuta el ejemplo de gestión de empleados usando HashMap
