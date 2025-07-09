@@ -4,9 +4,7 @@ public class Empleado implements Comparable<Empleado> {
     @Override
     public int compareTo(Empleado other) {
         // Primero compara por id, luego por nombre, luego por posición
-        int cmp = Integer.compare(this.id, other.id);
-        if (cmp != 0) return cmp;
-        cmp = this.name.compareTo(other.name);
+        int cmp = Integer.compare(this.id, other.id);       
         if (cmp != 0) return cmp;
         return this.position.compareTo(other.position);
     }
@@ -21,6 +19,11 @@ public class Empleado implements Comparable<Empleado> {
         this.position = position;
     }
 
+    public Empleado(int id) {
+        this.id = id;
+        
+    }
+
     public int getId() {
         return id;
     }
@@ -31,6 +34,20 @@ public class Empleado implements Comparable<Empleado> {
 
     public String getPosition() {
         return position;
+    }
+
+    
+
+    public void setId(int id) {
+        this.id = id;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public void setPosition(String position) {
+        this.position = position;
     }
 
     @Override
@@ -57,11 +74,6 @@ public class Empleado implements Comparable<Empleado> {
             return false;
         Empleado other = (Empleado) obj;
         if (id != other.id)
-            return false;
-        if (name == null) {
-            if (other.name != null)
-                return false;
-        } else if (!name.equals(other.name))
             return false;
         if (position == null) {
             if (other.position != null)
