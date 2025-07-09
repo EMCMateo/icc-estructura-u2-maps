@@ -3,6 +3,10 @@
 ## Getting Started
 
 imagen resuelto:
+![alt text](image-1.png)
+
+
+
 ![alt text](image.png)
 
 Este repositorio se refiere a la segunda unidad de Estructuras de Datos, donde se cubren estructuras como sets y diccionarios
