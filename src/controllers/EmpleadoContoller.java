@@ -13,7 +13,7 @@ public class EmpleadoContoller {
 
     public void crearEmpleado(Empleado empleeado) {
         empleadoDAO.add(empleeado);
-        System.out.println("Empleado creado: " + empleeado);
+        System.out.println("Empleado creado exitosamente: " + empleeado);
     }
 
     public void eliminarEmpleado(int id) {
