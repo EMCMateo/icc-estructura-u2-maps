@@ -52,6 +52,11 @@ public class App {
         int objetivo = 5;
         int[] resultado = ejercicios.sumatoriaDeDos(nums, objetivo);
 
+        ejercicios.contarCaracteres("hola");
+        boolean sonAnagramas = ejercicios.sonAnagramas("roma", "amor");
+        System.out.println("Son anagramas" + sonAnagramas);
+        
+
 
     }
 
